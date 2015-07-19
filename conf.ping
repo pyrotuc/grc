@@ -18,6 +18,14 @@ colours=green
 regexp=time=
 colours=yellow
 =======
+# ttl
+regexp=ttl=
+colours=yellow
+=======
+# icmp_seq
+regexp=icmp_seq=
+colours=yellow
+=======
 # DUP
 regexp=DUP\!
 colours=red
@@ -29,3 +37,7 @@ colours=yellow
 # unknown host
 regexp=.+unknown\shost\s(.+)
 colours=red,bold red
+=======
+# Request timeout
+regexp=^Request\stimeout*
+colours=bold red
