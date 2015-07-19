@@ -14,8 +14,8 @@ mkdir -p $CONFDIR || true
 cp -fv grc.conf $CONFDIR
 
 if [ -f ~/.bash_aliases ]; then
-echo "echo "alias gure='grc gure'" >> .bash_aliases
-echo "echo "alias cvs='grc cvs'" >> .bash_aliases
+echo "alias gure='grc gure'" >> .bash_aliases
+echo "alias cvs='grc cvs'" >> .bash_aliases
 echo "alias df='grc df'" >> .bash_aliases
 echo "alias diff='grc diff'" >> .bash_aliases
 echo "alias esperanto='grc esperanto'" >> .bash_aliases
